@@ -68,8 +68,6 @@ col1, col2 = st.columns(2, gap='medium')
 
 with col1:
     st.subheader("Select a dish")
-    # container = st.container()
-    # with container:
     selected_dish = None
     for dish, details in dishes.items():
         if st.button(label = dish):
